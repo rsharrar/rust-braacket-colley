@@ -1,6 +1,6 @@
-use rust_braacket_colley::process_html_to_internal;
+use rust_braacket_colley::make_colley_ranking;
 
 #[tokio::main]
 async fn main() {
-    process_html_to_internal().await.expect("Failed");
+    make_colley_ranking().await.expect("Failed");
 }
